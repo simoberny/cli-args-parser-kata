@@ -1,16 +1,16 @@
 # cli-args-parser-kata
 
-CLI arguments parser in Javascript
+CLI arguments parser in Javascript  
+
 Tested with Jest
 
-## Instructions
+## Development
 
 Once cloned, install the dependencies with: 
 ```
 npm install
 ```
-and then 
+To test the parser
 ```
 npm test
 ```
-to test the function
