@@ -1,0 +1,1 @@
+const argsToJSON = require('../index');

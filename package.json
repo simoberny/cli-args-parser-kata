@@ -1,0 +1,32 @@
+{
+  "name": "cli-args-parser-kata",
+  "version": "0.0.1",
+  "description": "CLI arguments parser in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoberny/cli-args-parser-kata.git"
+  },
+  "keywords": [
+    "cli",
+    "args",
+    "parser",
+    "js"
+  ],
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Simone Bernabè",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simoberny/cli-args-parser-kata/issues"
+  },
+  "homepage": "https://github.com/simoberny/cli-args-parser-kata#readme",
+  "devDependencies": {
+    "jest": "^23.4.2"
+  }
+}
