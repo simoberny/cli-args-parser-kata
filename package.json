@@ -18,6 +18,7 @@
     "js"
   ],
   "jest": {
+    "collectCoverage": true,
     "testEnvironment": "node"
   },
   "author": "Simone Bernabè",

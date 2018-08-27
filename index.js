@@ -14,7 +14,7 @@ const argsToJSON = (args) => {
       const key = arg.substr(2)
       if (!next || isFlag(next)) {
         json[key] = true
-      } else if (!isFlag(next)) {
+      } else {
         json[key] = json[key] ? [].concat(json[key], parseValue(next)) : parseValue(next)
       }
     }
